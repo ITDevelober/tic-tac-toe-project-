@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    color: rgb(241, 187, 232);
+  }
+
+  .col-holder {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(50%);
+     width: 350px;
+  }
+
+  .player-box {
+      padding: 20px;
+     display: inline-block;
+     text-align: center;
+     width: 70px;
+     background-color: #333;
+     border: 1px solid black;
+     font-size: 80px;
+  }
+.board{
+    
+}
+body{
+    background: #eee9e9;
+    color: rgb(115, 199, 238);
+  }
+ 
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: rgba(99, 15, 235, 0.767);
+    padding-bottom: 40px;
+    border-radius: 70px;
+  }
+  #displayMessage{
+    background: rgb(219, 45, 196);
+    color: #fff;
+  }
+  #theGameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: rgb(226, 120, 221);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+
+  }
+  #theGameBoard li:hover, #resetButton:hover{
+    cursor: pointer;
+    background: rgb(241, 156, 227)0;
+  }
+  #resetButton{
+    border: 0;
+    background: rgb(255, 255, 255);
+    color: rgb(219, 13, 202);
+    width: 70%;
+    padding: 15px;
+    border-radius: 60px;
+    text-shadow: blueviolet;
+    font-weight: bold;
+  }
+  .o{
+    color: rgb(137, 155, 137) !important;
+  }
+  .x{
+    color: rgb(172, 25, 25) !important;
+  }
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
